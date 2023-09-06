@@ -1,0 +1,12 @@
+@mixin flexDisposition ($flexFlow:row wrap) {
+    display: flex;
+    flex-flow: $flexFlow;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerFlex () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
