@@ -10,10 +10,10 @@ btn_Hamburger.addEventListener ("click",function (e) {
     this.querySelector("img").style.height = "100%";
 
     if (this.querySelector('img').src.includes('menu')) {
-        this.querySelector('img').src = "../images/croix.svg"
+        this.querySelector('img').src = "./images/croix.svg"
         
     } else {
-        this.querySelector('img').src = "../images/menu.svg"
+        this.querySelector('img').src = "./images/menu.svg"
     }
     
     
